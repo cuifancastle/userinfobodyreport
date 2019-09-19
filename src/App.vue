@@ -1,16 +1,15 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/search">search</router-link>
-      <router-link to="/adduser">adduser</router-link>
-      <router-link to="/change">change</router-link>
-      <router-link to="/report">report</router-link>
-    </div>
+<!--    <div id="nav">-->
+<!--      <router-link to="/">Home</router-link> |-->
+<!--      <router-link to="/search">search</router-link>-->
+<!--      <router-link to="/adduser">adduser</router-link>-->
+<!--      <router-link to="/change">change</router-link>-->
+<!--      <router-link to="/report">report</router-link>-->
+<!--    </div>-->
     <router-view/>
   </div>
 </template>
-
 <style>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -18,6 +17,5 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
